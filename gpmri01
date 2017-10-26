@@ -1,7 +1,7 @@
 #Ubuntu 14.04
 apt-get install samba
 mv /etc/samba/smb.conf /etc/samba/smb.conf_old
-#edit /etc/samba/amb.conf
+#edit /etc/samba/smb.conf
 net ads join -U soh516 createcomputer=ResearchComputingOU/PSYOU
 apt-get install krb5-user
 #verification --> klist -ke
